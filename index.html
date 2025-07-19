@@ -8,9 +8,13 @@
     <div class="calculator">
         <input type="text" class="display" readonly>
         <div class="buttons-container">
-            <!-- Main number buttons (left side) -->
+            <!-- Left side: C + numbers -->
             <div class="number-buttons">
-                <!-- First row -->
+                <!-- C button row -->
+                <div class="button-row">
+                    <button class="calc-btn clear">C</button>
+                </div>
+                <!-- First number row -->
                 <div class="button-row">
                     <button class="calc-btn number">7</button>
                     <button class="calc-btn number">8</button>
@@ -34,19 +38,16 @@
                     <button class="calc-btn decimal">.</button>
                 </div>
             </div>
-            
-            <!-- Operator column (right side) -->
+            <!-- Right side: Operators -->
             <div class="operator-column">
                 <button class="calc-btn operator">/</button>
                 <button class="calc-btn operator">*</button>
                 <button class="calc-btn operator">-</button>
                 <button class="calc-btn operator">+</button>
                 <button class="calc-btn equals">=</button>
-                <button class="calc-btn clear">C</button>
             </div>
         </div>
     </div>
-    
     <script src="script.js"></script>
 </body>
 </html>
