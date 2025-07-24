@@ -9,7 +9,7 @@
 }
 
 .display {
-    width: 80%;
+    width: 85%;
     height: 50px;
     background: #111;
     color: #fff;
@@ -53,7 +53,7 @@
 
 .calc-btn.clear {
     background: #A52A2A;
-    color: #fff;
+    color: #D2691;
     font-weight: bold;  
 }
 
