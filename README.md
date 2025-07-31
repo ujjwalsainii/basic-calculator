@@ -39,7 +39,8 @@ A responsive calculator built using **HTML, CSS, and JavaScript** that performs 
 ---
 
 ## 📁 Folder Structure
-alculator-project/
+calculator-project/
+
 ├── index.html
 ├── style.css
 └── script.js
